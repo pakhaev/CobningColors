@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E080171A2B791AC60077C268 /* CobningColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08017192B791AC60077C268 /* CobningColorsApp.swift */; };
+		E080171E2B791ACA0077C268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E080171D2B791ACA0077C268 /* Assets.xcassets */; };
+		E08017212B791ACA0077C268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08017202B791ACA0077C268 /* Preview Assets.xcassets */; };
+		E08017292B791AEE0077C268 /* CombiningColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08017282B791AEE0077C268 /* CombiningColorsViewModel.swift */; };
+		E080172F2B791AF40077C268 /* CustomColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080172B2B791AF40077C268 /* CustomColorPickerView.swift */; };
+		E08017302B791AF40077C268 /* ColorsVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080172C2B791AF40077C268 /* ColorsVStackView.swift */; };
+		E08017312B791AF40077C268 /* ColorTappedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080172D2B791AF40077C268 /* ColorTappedView.swift */; };
+		E08017322B791AF40077C268 /* CombiningColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080172E2B791AF40077C268 /* CombiningColors.swift */; };
+		E08017352B791B100077C268 /* String + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08017342B791B100077C268 /* String + ext.swift */; };
+		E08017382B791B170077C268 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08017372B791B170077C268 /* LocalizationService.swift */; };
+		E080173B2B791B7C0077C268 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E080173D2B791B7C0077C268 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E08017162B791AC60077C268 /* CobningColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobningColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08017192B791AC60077C268 /* CobningColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobningColorsApp.swift; sourceTree = "<group>"; };
+		E080171D2B791ACA0077C268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E08017202B791ACA0077C268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E08017282B791AEE0077C268 /* CombiningColorsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombiningColorsViewModel.swift; sourceTree = "<group>"; };
+		E080172B2B791AF40077C268 /* CustomColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorPickerView.swift; sourceTree = "<group>"; };
+		E080172C2B791AF40077C268 /* ColorsVStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsVStackView.swift; sourceTree = "<group>"; };
+		E080172D2B791AF40077C268 /* ColorTappedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTappedView.swift; sourceTree = "<group>"; };
+		E080172E2B791AF40077C268 /* CombiningColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombiningColors.swift; sourceTree = "<group>"; };
+		E08017342B791B100077C268 /* String + ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + ext.swift"; sourceTree = "<group>"; };
+		E08017372B791B170077C268 /* LocalizationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationService.swift; sourceTree = "<group>"; };
+		E080173C2B791B7C0077C268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E080173E2B791B7D0077C268 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E08017132B791AC60077C268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E080170D2B791AC60077C268 = {
+			isa = PBXGroup;
+			children = (
+				E08017182B791AC60077C268 /* CobningColors */,
+				E08017172B791AC60077C268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E08017172B791AC60077C268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08017162B791AC60077C268 /* CobningColors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E08017182B791AC60077C268 /* CobningColors */ = {
+			isa = PBXGroup;
+			children = (
+				E08017362B791B170077C268 /* Services */,
+				E08017332B791B100077C268 /* Extensions */,
+				E080172A2B791AF40077C268 /* Views */,
+				E08017272B791AEE0077C268 /* ViewModels */,
+				E08017192B791AC60077C268 /* CobningColorsApp.swift */,
+				E080171D2B791ACA0077C268 /* Assets.xcassets */,
+				E080171F2B791ACA0077C268 /* Preview Content */,
+				E080173D2B791B7C0077C268 /* Localizable.strings */,
+			);
+			path = CobningColors;
+			sourceTree = "<group>";
+		};
+		E080171F2B791ACA0077C268 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E08017202B791ACA0077C268 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E08017272B791AEE0077C268 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E08017282B791AEE0077C268 /* CombiningColorsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E080172A2B791AF40077C268 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E080172B2B791AF40077C268 /* CustomColorPickerView.swift */,
+				E080172C2B791AF40077C268 /* ColorsVStackView.swift */,
+				E080172D2B791AF40077C268 /* ColorTappedView.swift */,
+				E080172E2B791AF40077C268 /* CombiningColors.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E08017332B791B100077C268 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E08017342B791B100077C268 /* String + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E08017362B791B170077C268 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E08017372B791B170077C268 /* LocalizationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E08017152B791AC60077C268 /* CobningColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08017242B791ACA0077C268 /* Build configuration list for PBXNativeTarget "CobningColors" */;
+			buildPhases = (
+				E08017122B791AC60077C268 /* Sources */,
+				E08017132B791AC60077C268 /* Frameworks */,
+				E08017142B791AC60077C268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CobningColors;
+			productName = CobningColors;
+			productReference = E08017162B791AC60077C268 /* CobningColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E080170E2B791AC60077C268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E08017152B791AC60077C268 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = E08017112B791AC60077C268 /* Build configuration list for PBXProject "CobningColors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = E080170D2B791AC60077C268;
+			productRefGroup = E08017172B791AC60077C268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08017152B791AC60077C268 /* CobningColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E08017142B791AC60077C268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08017212B791ACA0077C268 /* Preview Assets.xcassets in Resources */,
+				E080173B2B791B7C0077C268 /* Localizable.strings in Resources */,
+				E080171E2B791ACA0077C268 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E08017122B791AC60077C268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08017352B791B100077C268 /* String + ext.swift in Sources */,
+				E08017382B791B170077C268 /* LocalizationService.swift in Sources */,
+				E080172F2B791AF40077C268 /* CustomColorPickerView.swift in Sources */,
+				E08017322B791AF40077C268 /* CombiningColors.swift in Sources */,
+				E08017302B791AF40077C268 /* ColorsVStackView.swift in Sources */,
+				E080171A2B791AC60077C268 /* CobningColorsApp.swift in Sources */,
+				E08017312B791AF40077C268 /* ColorTappedView.swift in Sources */,
+				E08017292B791AEE0077C268 /* CombiningColorsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E080173D2B791B7C0077C268 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E080173C2B791B7C0077C268 /* en */,
+				E080173E2B791B7D0077C268 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E08017222B791ACA0077C268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E08017232B791ACA0077C268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E08017252B791ACA0077C268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CobningColors/Preview Content\"";
+				DEVELOPMENT_TEAM = C87Q7272PH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Khusein.CobningColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E08017262B791ACA0077C268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CobningColors/Preview Content\"";
+				DEVELOPMENT_TEAM = C87Q7272PH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Khusein.CobningColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E08017112B791AC60077C268 /* Build configuration list for PBXProject "CobningColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08017222B791ACA0077C268 /* Debug */,
+				E08017232B791ACA0077C268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08017242B791ACA0077C268 /* Build configuration list for PBXNativeTarget "CobningColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08017252B791ACA0077C268 /* Debug */,
+				E08017262B791ACA0077C268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E080170E2B791AC60077C268 /* Project object */;
+}

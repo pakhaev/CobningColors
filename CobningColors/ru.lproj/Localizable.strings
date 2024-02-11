@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  CobningColors
+
+  Created by Khusain on 11.02.2024.
+  
+*/
+"app_title" = "Смешать Цвета";
+"select_color" = "Выберите цвет";
+"red" = "красный";
+"brown" = "коричневый";
+"orange" = "оранжевый";
+"green" = "зеленый";
+"yellow" = "желтый";
+"mint" = "мятный";
+"blue" = "синий";
+"purple" = "фиолетовый";
+"black" = "черный";
+"white" = "белый";
+"gray" = "серый";
+"cyan" = "голубой";
+"cyan blue" = "голубовато-синий";
+"dark cyan blue" = "темно-голубой синий";
+"grayish orange" = "серовато-оранжевый";
+"red orange" = "красно-оранжевый";
+"yellow orange" = "желто-оранжевый";
+"blue green" = "цвет морской волны";
+"magenta" = "пурпурный";
+"dark brown" = "темно-коричневый";
+"yellow green" = "желто-зеленый";
+"vibrant yellow orange" = "ярко-желто-оранжевый";
+"grayish green" = "серовато-зеленый";
+"dark green" = "темно-зеленый";
+"dark cyan" = "темно-голубой";
+"grayish yellow green" = "серовато-желто-зеленый";
+"pink" = "розовый";
+"dark red" = "темно-красный";
+"dark purple" = "темно-фиолетовый";
+"light yellow" = "светло-желтого";

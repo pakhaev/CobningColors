@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CobningColors
+
+  Created by Khusain on 11.02.2024.
+  
+*/
+"app_title" = "MixColors";
+"select_color" = "Select a color";
